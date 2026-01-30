@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Färgassistent</string>
+    <string name="analogous">Analog</string>
+    <string name="back_text">Tillbaka</string>
+    <string name="choose_color">Välj färg</string>
+    <string name="complementary">Komplementär</string>
+    <string name="color_guide">färgguide</string>
+    <string name="color_values">#RRGGBB</string>
+    <string name="color_wheel_desc">Färgvalshjul</string>
+    <string name="continue_text">Fortsätta</string>
+    <string name="default_color_values">HEX:\nRGB:</string>
+    <string name="desc_camera_button">Scanna en färg med din kamera</string>
+    <string name="favorites">Favoriter</string>
+    <string name="title_color_wheel">Färghjul</string>
+    <string name="pick_color">Välj färg</string>
+    <string name="triadic">Triadisk</string>
+    <string name="tetradic">Tetradisk</string>
+    <string name="monochromatic">Enfärgad</string>
+    <string name="settings">Inställningar</string>
+    <string name="language">Språk</string>
+    <string name="choose_theme">Välj tema:</string>
+    <string name="light_mode">Ljust tema</string>
+    <string name="dark_mode">Mörkt tema</string>
+    <string name="about">Om appen</string>
+    <string name="final_image_desc">Bilden föreställer tre handveskor i de tre komplementerande färgerna.</string>
+    <string name="favorites_list_desc">Favoritmarkerade fäger är listade här, om du trycker på en av dem kommer du till färgguide sidan som visa färgkombinationer för den färgen.</string>
+    <string name="favorite_marker_desc">Klicka på denna knappen för att spara färgen i favoriter.</string>
+    <string name="language_english">Engelska</string>
+    <string name="language_swedish">Svenska</string>
+
+    <string name="information_about">
+Den här appen hjälper dig att utforska och förstå färgharmoni
+på ett enkelt och intuitivt sätt.
+Börja med att välja en färg i färghjulet. Baserat på ditt val
+föreslår appen färgkombinationer som passar bra ihop.
+När du har valt en färg tas du vidare till Färgguiden,
+där du kan utforska olika färgrelationer såsom komplementära,
+monokromatiska, analoga, triadiska och tetradiska färgscheman.
+Varje guide förklarar hur färgerna förhåller sig till varandra
+och när de passar bäst att använda.
+Du kan spara dina favoritfärger för enkel åtkomst senare.
+På Inställningar kan du anpassa din upplevelse,
+och på Om-sidan hittar du mer information om appen och dess syfte.
+Oavsett om du designar, inreder eller bara utforskar färger gör appen
+det enkelt att hitta harmoniska färgkombinationer.
+</string>
+
+    <string name="information_tetradic">
+Ett tetradiskt färgschema använder fyra färger jämnt fördelade
+runt färgcirkeln och bildar två komplementära färgpar.
+Detta skapar en livfull och dynamisk palett som kan få dina designer att sticka ut.
+När det används strategiskt balanserar det kontrast och harmoni.
+</string>
+
+    <string name="information_complementary">
+Komplementfärger ligger mittemot varandra på färghjulet.
+De förstärker varandras intensitet när de placeras
+bredvid varandra och skapar hög kontrast och ljusstyrka.
+När de blandas neutraliserar de varandra
+och ger en mindre intensiv, neutral färg.
+    </string>
+
+    <string name="information_monochromatic">
+Monokromatiskt avser att endast ha en enda nyans eller färg.
+Inom grafisk design använder en monokromatisk design endast en enda
+färg i varierande toner – färgschemat är ljusare eller mörkare versioner av basfärgen.
+Monokromatiska färger används ofta för att förenkla design och är
+ofta en viktig del av färgpaletten för ett visst varumärke.
+När en design blir rörig eller rörig är monokrom praktiskt för
+att få den att se mer sammanhängande ut. Det är en av de enklaste formerna av
+färgpaletter att använda och hjälper en design att se renare och mer sofistikerad ut.
+</string>
+
+    <string name="information_analogous">
+Ett analogt färgschema består vanligtvis av
+tre färger som faller bredvid varandra
+på färgcirkeln:
+den första är den dominerande färgen,
+den andra är stödfärgen
+och den tredje fungerar som en accent.
+Svart, vitt och grått kan också införlivas
+i vilket analogt färgschema som helst.
+Ytterligare färger kan användas
+så länge de gränsar till varandra
+på färgspektrumet.
+Analoga färgscheman förekommer flitigt i naturen
+och används ofta inom traditionell konst.
+</string>
+
+
+    <string name="information_triadic">
+Alla exempel på triadiska färger består av tre färger som
+är jämnt fördelade på den traditionella färgcirkeln.
+Svart och/eller vitt kan också förekomma inom en triadisk harmoni.
+Ett traditionellt balanserat triadiskt färgschema fokuserar på en dominerande färg,
+där de andra två jämnt fördelade färgerna båda fungerar som accenter.
+Triadiska färger sticker ut från varandra och skapar en livfull,
+livfull färgpalett oavsett vilka specifika färger som används.
+Triadisk färgharmoni hänvisar till det tilltalande utseendet
+som triadiska färger har när de används tillsammans.
+</string>
+</resources>

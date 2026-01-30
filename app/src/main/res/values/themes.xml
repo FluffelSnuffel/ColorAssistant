@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme -->
+    <style name="Base.Theme.ColorAssistant"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/background_color</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.ColorAssistant"
+        parent="Base.Theme.ColorAssistant" />
+
+</resources>

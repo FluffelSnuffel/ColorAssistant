@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analogous"
+        android:textSize="26sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/displayColorAnal1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintBottom_toTopOf="@id/information"
+        app:layout_constraintEnd_toStartOf="@id/displayColorOriginalAnal"/>
+
+    <View
+        android:id="@+id/displayColorOriginalAnal"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@id/displayColorAnal1"
+        app:layout_constraintEnd_toStartOf="@id/displayColorAnal2"
+        app:layout_constraintTop_toTopOf="@id/displayColorAnal1"
+        app:layout_constraintBottom_toBottomOf="@id/displayColorAnal1"/>
+
+    <View
+        android:id="@+id/displayColorAnal2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toEndOf="@id/displayColorOriginalAnal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/displayColorAnal1"
+        app:layout_constraintBottom_toBottomOf="@id/displayColorAnal1"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/information_analogous"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/displayColorAnal1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_back"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back_text"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/information"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

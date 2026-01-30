@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_colorWheel"
+        app:layout_constraintWidth_percent="0.4"/>
+
+    <Button
+        android:id="@+id/btn_colorWheel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_Favorites"
+        app:layout_constraintStart_toEndOf="@id/logo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_Favorites"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/favorites"
+        app:layout_constraintTop_toBottomOf="@id/btn_colorWheel"
+        app:layout_constraintBottom_toTopOf="@id/open_settings"
+        app:layout_constraintStart_toEndOf="@id/logo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/open_settings"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        app:layout_constraintTop_toBottomOf="@id/btn_Favorites"
+        app:layout_constraintBottom_toTopOf="@id/about_btn"
+        app:layout_constraintStart_toEndOf="@id/logo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        app:layout_constraintTop_toBottomOf="@id/open_settings"
+        app:layout_constraintStart_toEndOf="@id/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
